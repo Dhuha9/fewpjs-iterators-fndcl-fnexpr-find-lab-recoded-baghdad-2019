@@ -9,5 +9,5 @@ const record = [
   {year: "2016", result: "N/A"}
 ];
 function superbowlWin(){
-   record.find(obj=> obj.result==="W"? obj.year:"undefined");
+   record.find(obj=> obj.result==="W");
 }
