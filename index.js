@@ -9,6 +9,6 @@ const record = [
   {year: "2016", result: "N/A"}
 ];
 function superbowlWin(){
-  ifreturn (record.find(obj=> obj.result==="W").year;} else { undefined;}
+  return (record.find(obj=> obj.result==="W")).year;
    
 }
