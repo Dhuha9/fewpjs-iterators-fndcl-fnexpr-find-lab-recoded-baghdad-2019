@@ -9,5 +9,5 @@ function testFunc() {
 }
 
 function superbowlWin(){
-   record.find(obj=> obj.result=="W"? obj.year:"undefined");
+   record.find(obj=> obj.result==="W"? obj.year:"undefined");
 }
