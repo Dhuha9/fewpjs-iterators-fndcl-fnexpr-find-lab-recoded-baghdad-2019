@@ -5,7 +5,7 @@ function testFunc() {
 }
 
 function superbowlWin(record){
-  let winResult=
-  if ((record.find(obj=> obj.result==="W"))!==undefined) {return .year;} else {return undefined;}
+  let winResult=record.find(obj=> obj.result==="W");
+  if (winResult!==undefined) {return winResult.year;} else {return undefined;}
    
 }
